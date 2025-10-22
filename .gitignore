@@ -1,0 +1,53 @@
+# ===============================
+# Node dependencies
+# ===============================
+node_modules/
+.wrangler
+.pnp/
+.pnp.js
+
+# ===============================
+# Build output
+# ===============================
+dist/
+
+# ===============================
+# Editor & IDE files
+# ===============================
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.production
+.dev.vars
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+
+# ===============================
+# Temporary files
+# ===============================
+*.bak
+*.orig
+*.old
