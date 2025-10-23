@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "budget-buddy",
+  "name": "budget",
   "main": "src/index.ts",
   "compatibility_date": "2025-10-22"
   // "compatibility_flags": [
